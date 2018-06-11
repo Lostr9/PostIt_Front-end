@@ -1,0 +1,46 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+}
+
+.btn {
+  padding: 6px;
+}
+
+.top-nav {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  background-color: white;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.top-nav_login {
+  font-size: 14px;
+  padding: 0px;
+  display: flex;
+}
+
+.top-nav_login_group {
+  margin-right: 20px;
+}
+
+.top-nav_login_btn {
+  padding-top: 27px;
+}
+
+.content {
+  background-color: white;
+}
