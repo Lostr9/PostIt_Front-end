@@ -1,5 +1,5 @@
 html {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 .btn {
-  padding: 6px;
+  padding: 5px;
 }
 
 .top-nav {
@@ -20,6 +20,8 @@ body {
   background-color: white;
   padding: 15px;
   font-size: 25px;
+  border-radius: 20px;
+  background-color: #996633;
 }
 
 .top-nav a {
@@ -38,9 +40,52 @@ body {
 }
 
 .top-nav_login_btn {
-  padding-top: 27px;
+  padding-top: 30px;
+}
+
+.top-error {
+  color: #660000;
+  padding: 0px;
+  margin: 0px;
+}
+
+.top-error p {
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.content-error p {
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .content {
-  background-color: white;
+  background-color: #CC9966;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.content_registration_btn {
+  margin-top: 15px;
+}
+
+.content_registration_group {
+  margin-bottom: 10px;
+}
+
+.content_registration_group input {
+  margin: 0px 0px;
+}
+
+.content_registration_error {
+  color: #660000;
+  margin: 0px;
+}
+
+.content_registration_error p {
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
 }
