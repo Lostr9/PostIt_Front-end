@@ -1,5 +1,5 @@
 html
-  font-size: 14px
+  font-size: 15px
 
 body
   background-image: url(../img/background.jpg)
@@ -8,14 +8,17 @@ body
   font-family: 'Roboto', sans-serif
   padding: 0px
 
+
 .btn
-  padding: 6px
+  padding: 5px
 .top-nav
   margin-bottom: 30px
   margin-top: 20px
   background-color: white
   padding: 15px
   font-size: 25px
+  border-radius: 20px
+  background-color: #996633
   a
     text-decoration: none
     color: #000
@@ -26,7 +29,45 @@ body
     &_group
       margin-right: 20px
     &_btn
-      padding-top: 27px
+      padding-top: 30px
+
+.top-error
+  //background-color: red
+  color: #660000
+  padding: 0px
+  margin: 0px
+  p
+    font-size: 14px
+    padding: 0px
+    margin: 0px
+
+.content-error
+  //background-color: red
+  p
+    font-size: 14px
+    padding: 0px
+    margin: 0px
+
 
 .content
-  background-color: white
+  background-color: #CC9966
+  border-radius: 20px
+  padding: 15px
+  &_hello
+    //padding: 15px
+  &_registration
+    &_btn
+      margin-top: 15px
+      button
+        //margin: auto
+    &_group
+      margin-bottom: 10px
+      input
+        margin: 0px 0px
+    &_error
+      color: #660000
+      margin: 0px
+      p
+        font-size: 14px
+        padding: 0px
+        margin: 0px
