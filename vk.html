@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="./img/favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <title>Профиль</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-nav">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-auto">
+            <div class="top-nav_logo">
+              <a href="/">Post It</a>
+            </div>
+            <!-- /.logo -->
+          </div>
+          <!-- /.col-md -->
+          <div class="col-md-auto">
+            <div class="top-nav_menu">
+              <li><a href="/">Новый пост</a></li>
+              <li><a href="#">Аккаунты</a></li>
+              <li><a href="#">О нас</a></li>
+              <li><a href="#">Выйти</a></li>
+            </div>
+            <!-- /.top-nav -->
+          </div>
+          <!-- /.col-md -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.top-nav -->
+      <div class="content">
+        <form action="/networks/vk" method="post">
+          <div class="content_setToken">
+            <p>Скопируйте URL из адресной строки открывшейся вкладки</p>
+            <input placeholder="https://oauth.vk.com/blank.html#access_token=3622a413692998f796d5cb4e1c46a7398a7263b531e9be7e3f2527d0102fbd85e1dd213e28b0ae55acf72&expires_in=0&user_id=00000001" type="text" class="form-control" name="url">
+          </div>
+          <!-- /.content_setToken -->
+          <div class="row justify-content-center">
+            <div class="col-md-auto">
+              <button type="button"  class="btn">
+                <a href="https://oauth.vk.com/authorize?client_id=6608304&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=offline,wall&response_type=token&v=5.52">Получить URL</a></button>
+            </div>
+            <!-- /.col-md -->
+            <div class="col-md-auto">
+              <button type="submit" class="btn">Отправить URL</button>
+            </div>
+            <!-- /.col-md -->
+          </div>
+          <!-- /.row -->
+        </form>
+        <div class="content_error">
+          <p></p>
+        </div>
+        <!-- /.error -->
+      </div>
+      <!-- /.content -->
+    </div>
+    <!-- /.container -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.24.4'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+  </body>
+</html>
